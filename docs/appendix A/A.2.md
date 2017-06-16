@@ -3,24 +3,18 @@
 
 ```js
 var sana = "サナ";
-// "Hello サナ"
 console.log(`Hello ${sana}`);
 
 function getMina() {
   return "ミナ";
 }
-// "Hello ミナ"
 console.log(`Hello ${getMina()}`);
-
-for (var i = 0; i < 50; i++) {
-  if () {
-    ekel
-  }
-}
 ```
 
-> "Hello サナ"
-> "Hello ミナ"
+```js
+"Hello サナ"
+"Hello ミナ"
+```
 
 ### A.2.1 여러 줄에 걸친 문자열
 
@@ -29,14 +23,15 @@ var message = `Trying to let you know
               I send you a sign, send you a signal
               I must let you know
               I send you a sign, send you a signal`;
-
 console.log(message);
 ```
 
-> Trying to let you know
->               I send you a sign, send you a signal
->               I must let you know
->               I send you a sign, send you a signal
+```js
+Trying to let you know
+              I send you a sign, send you a signal
+              I must let you know
+              I send you a sign, send you a signal
+```
 
 ### A.2.2 태그가 붙는 템플릿 스트링
 
@@ -50,5 +45,7 @@ var name = "정연";
 myTag`Hello ${name}!`;
 ```
 
-> Array ["Hello ", "!"]
-> "정연"
+```js
+Array ["Hello ", "!"]
+"정연"
+```
