@@ -5,6 +5,10 @@
   "author": "Gim YoungPhil <youngphil.gim@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "python -m SimpleHTTPServer 8080"
+    "serve": "python -m SimpleHTTPServer 8080",
+    "transpile": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
   }
 }
