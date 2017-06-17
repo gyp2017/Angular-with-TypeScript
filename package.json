@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Gim YoungPhil <youngphil.gim@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "serve": "python -m SimpleHTTPServer 8080"
+  }
 }
