@@ -11,15 +11,3 @@ $ npm -v
 $ yarn --version
 0.24.6
 ```
-
-
-install
-```sh
-$ yarn install
-```
-
-```sh
-```
-
-```sh
-```
