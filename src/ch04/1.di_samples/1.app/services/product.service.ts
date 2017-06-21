@@ -1,14 +1,8 @@
-export class Product {
-  constructor(public id: number,
-              public title: string,
-              public price: number,
-              public description: string) {
-  }
-}
+import { Product, IProductService } from './i.product.service';
 
-export class ProductService {
+export class ProductService implements IProductService {
 
   getProduct(): Product {
-    return new Product(0, 'iPhone 7', 849.99, '5.8-inch screen');
+    return new Product(0, 'iPhone 8', 849.99, '5.8-inch screen');
   }
 }

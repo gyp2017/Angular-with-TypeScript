@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import AppComponent from './components/app.component';
 import ProductComponent from './components/product.component';
-import { ProductService } from './services/product.service'; 
+import MockComponent from './components/mock.component';
+import { ProductService } from './services/product.service';
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [AppComponent, ProductComponent],
+  declarations: [AppComponent, ProductComponent, MockComponent],
   providers: [ProductService],
   bootstrap: [AppComponent]
 })
