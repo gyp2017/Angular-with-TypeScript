@@ -1,0 +1,8 @@
+<div class="card my-3">
+  <img class="card-img-top" [style.background-image]="'url(./images/' + idol.id + '.jpg)'">
+  <div class="card-block">
+    <h4 class="card-title">{{ idol.name }} :kr:</h4>
+    <p class="card-text">{{ idol.height }} cm</p>
+    <a [routerLink]="['/idols', idol.id]" class="btn btn-primary">Go Detail</a>
+  </div>
+</div>
