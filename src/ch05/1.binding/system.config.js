@@ -25,7 +25,7 @@ System.config({
     'rxjs': { main: 'Rx' },
 
     'app': {
-      main: 'observable-events-http',
+      main: 'pipes/pipe-tester',
       defaultExtension: 'ts'
     }
   }
