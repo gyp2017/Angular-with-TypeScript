@@ -26,6 +26,12 @@
   dependencies:
     tslib "^1.7.1"
 
+"@angular/http@4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-4.2.2.tgz#e9f977f7b0ecec4d58ecdfc56d5706d8295848b2"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@4.2.2":
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.2.2.tgz#00f4b8d1ce415f432bcc5ab2bb90b0b069036287"

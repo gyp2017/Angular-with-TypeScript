@@ -19,12 +19,13 @@ System.config({
     '@angular/compiler': { main: 'bundles/compiler.umd.min.js' },
     '@angular/platform-browser': { main: 'bundles/platform-browser.umd.min.js' },
     '@angular/platform-browser-dynamic': { main: 'bundles/platform-browser-dynamic.umd.min.js' },
-    "@angular/forms":  { main: 'bundles/forms.umd.min.js' },
+    '@angular/forms':  { main: 'bundles/forms.umd.min.js' },
+    '@angular/http': { main: 'bundles/http.umd.min.js' },
 
     'rxjs': { main: 'Rx' },
 
     'app': {
-      main: 'two-way-binding',
+      main: 'observable-events-http',
       defaultExtension: 'ts'
     }
   }
