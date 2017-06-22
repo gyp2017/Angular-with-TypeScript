@@ -8,7 +8,7 @@
         "sourceMap": true
     },
     "include": [
-        "src/**/*"
+        "src/ch05/**/*"
     ],
     "exclude": [
         "node_modules",
