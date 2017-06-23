@@ -18,9 +18,10 @@ System.config({
     '@angular/compiler': { main: 'bundles/compiler.umd.min.js' },
     '@angular/platform-browser': { main: 'bundles/platform-browser.umd.min.js' },
     '@angular/platform-browser-dynamic': { main: 'bundles/platform-browser-dynamic.umd.min.js' },
+    '@angular/forms': { main: 'bundles/forms.umd.min.js' },
 
     'rxjs': { main: 'Rx' },
-    'app': { main: 'projection/ng-content-selector', defaultExtension: 'ts' }
+    'app': { main: 'comp-lifecycle/ng-onchanges-with-param', defaultExtension: 'ts' }
   },
 
   meta: {
