@@ -20,18 +20,6 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/forms@4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-4.2.2.tgz#5c960ad2960a0ae2999fc474560d73e910d118a0"
-  dependencies:
-    tslib "^1.7.1"
-
-"@angular/http@4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@angular/http/-/http-4.2.2.tgz#e9f977f7b0ecec4d58ecdfc56d5706d8295848b2"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/platform-browser-dynamic@4.2.2":
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.2.2.tgz#00f4b8d1ce415f432bcc5ab2bb90b0b069036287"
@@ -41,12 +29,6 @@
 "@angular/platform-browser@4.2.2":
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.2.2.tgz#e7e1ea32d1069ff960429076f3f0882965b620f3"
-  dependencies:
-    tslib "^1.7.1"
-
-"@angular/router@4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-4.2.2.tgz#2f2d202c92dbe3828d5a3d2fd2c3737c0cb6a587"
   dependencies:
     tslib "^1.7.1"
 
@@ -971,8 +953,8 @@ rc@^1.1.7:
     strip-json-comments "~2.0.1"
 
 readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.0.tgz#640f5dcda88c91a8dc60787145629170813a1ed2"
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.2.tgz#5a04df05e4f57fe3f0dc68fdd11dc5c97c7e6f4d"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -1050,12 +1032,8 @@ rxjs@5.4.1:
     symbol-observable "^1.0.1"
 
 safe-buffer@^5.0.1, safe-buffer@~5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.0.tgz#fe4c8460397f9eaaaa58e73be46273408a45e223"
-
-safe-buffer@~5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
 semver@^5.3.0:
   version "5.3.0"
@@ -1152,10 +1130,10 @@ string-width@^1.0.1, string-width@^1.0.2:
     strip-ansi "^3.0.0"
 
 string_decoder@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.2.tgz#b29e1f4e1125fa97a10382b8a533737b7491e179"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
   dependencies:
-    safe-buffer "~5.0.1"
+    safe-buffer "~5.1.0"
 
 stringstream@~0.0.4:
   version "0.0.5"
@@ -1227,8 +1205,8 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
 typescript@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.4.tgz#3d38321828231e434f287514959c37a82b629f42"
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.0.tgz#aef5a8d404beba36ad339abf079ddddfffba86dd"
 
 uid-number@^0.0.6:
   version "0.0.6"
