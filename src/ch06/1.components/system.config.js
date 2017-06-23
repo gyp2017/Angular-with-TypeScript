@@ -21,7 +21,7 @@ System.config({
     '@angular/forms': { main: 'bundles/forms.umd.min.js' },
 
     'rxjs': { main: 'Rx' },
-    'app': { main: 'comp-lifecycle/ng-onchanges-with-param', defaultExtension: 'ts' }
+    'app': { main: 'child-api/exposing-child-api', defaultExtension: 'ts' }
   },
 
   meta: {
