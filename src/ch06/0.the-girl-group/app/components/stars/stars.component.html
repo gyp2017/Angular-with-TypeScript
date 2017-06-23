@@ -1,0 +1,7 @@
+<span>
+  <i *ngFor="let star of stars; let i = index"
+      [class]="star ? 'fa fa-star' : 'fa fa-star-o'"
+      (click)="fillStarsWithColor(i)">
+  </i>
+  <span *ngIf="rating">{{ rating | number : '.0-2' }} stars</span>
+</span>
