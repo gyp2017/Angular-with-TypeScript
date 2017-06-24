@@ -1,0 +1,13 @@
+<form [formGroup]="formModel" (ngSubmit)="onSubmit()">
+  <label>Emails</label>
+  <button type="button" (click)="addEmail()">Add Email</button>
+  <ul formArrayName="emails">
+    <li *ngFor="let e of formModel.get('emails').controls; let i=index">
+      <input [formControlName]="i">
+    </li>
+    <button type="submit">Submit</button>
+  </ul>
+</form>
+<hr>
+<label>Form Value :</label>
+<pre>{{ value }}</pre>

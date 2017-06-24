@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './app/01_template-driven.html'
 })
 class AppComponent {
-  onsubmit(formValue: any) {
+  onSubmit(formValue: any) {
     console.log(formValue);
   }
 }
