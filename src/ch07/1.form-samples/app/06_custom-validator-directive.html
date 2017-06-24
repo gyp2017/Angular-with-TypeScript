@@ -1,0 +1,7 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+  <div>
+    SSN:
+    <input type="text" name="ssn" ngModel ssn>
+    <span [hidden]="!f.form.hasError('ssn', 'ssn')">SSN is invalid</span>
+  </div>
+</form>

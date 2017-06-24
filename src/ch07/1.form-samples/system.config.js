@@ -21,6 +21,6 @@ System.config({
     '@angular/forms': { main: 'bundles/forms.umd.min.js' },
 
     'rxjs': { main: 'Rx' },
-    'app': { main: '04_form-builder', defaultExtension: 'ts' }
+    'app': { main: '10_template-driven-with-validator', defaultExtension: 'ts' }
   }
 });
