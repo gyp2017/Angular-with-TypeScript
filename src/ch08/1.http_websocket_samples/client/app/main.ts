@@ -21,7 +21,7 @@ class AppComponent {
 
   constructor(private http: Http) {
     this.theDataSource = this.http.get('/products')
-        .map(res => res.json());
+                                  .map(res => res.json());
   }
 
   ngOnInit() {
@@ -36,7 +36,7 @@ class AppComponent {
       },
       err => console.log(`Can't get products. Error code: ${err.status}, URL: ${err.url}`),
       () => console.log('Product(s) are retrieved')
-    )
+    );
   }
 }
 

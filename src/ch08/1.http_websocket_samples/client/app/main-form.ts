@@ -3,7 +3,6 @@ import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, Http } from '@angular/http';
-
 import 'rxjs/add/operator/map';
 
 @Component({

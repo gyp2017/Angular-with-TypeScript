@@ -3,7 +3,7 @@ import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, Http } from '@angular/http';
-import { ProductService } from './product.service';
+import { ProductService } from './services/product.service';
 
 @Component({
   selector: 'app',
@@ -26,14 +26,14 @@ class AppComponent {
 
   getProductByID(formValue) {
     this.productService.getProductByID(formValue.productID)
-      .subscribe(
-        data => {
-          this.productTitle = data.title;
-          this.productPrice = '$' + data.price;
-        },
-        err => console.log(`Can't get products. Error code: ${err.status}, URL: ${err.url}`),
-        () => console.log('Done')
-      );
+                       .subscribe(
+                         data => {
+                           this.productTitle = data.title;
+                           this.productPrice = '$' + data.price;
+                         },
+                         err => console.log(`Can't get products. Error code: ${err.status}, URL: ${err.url}`),
+                         () => console.log('Done')
+                       );
   }
 }
 

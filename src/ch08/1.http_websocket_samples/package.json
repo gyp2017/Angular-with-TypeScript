@@ -5,7 +5,13 @@
   "license": "MIT",
   "scripts": {
     "tsc": "tsc -w",
-    "dev": "nodemon build/auction_rest_server_angular.js"
+    "dev0": "nodemon build/hello_server.js",
+    "dev1": "nodemon build/hello_server_json.js",
+    "dev2": "nodemon build/my_express_server.js",
+    "dev3": "nodemon build/auction_rest_server.js",
+    "dev4": "nodemon build/auction_rest_server_angular.js",
+    "dev5": "nodemon build/simple_websocket_server.js",
+    "dev6": "nodemon build/two-way-websocket-server.js"
   },
   "dependencies": {
     "@angular/common": "4.2.2",
@@ -21,11 +27,13 @@
     "rxjs": "5.4.1",
     "systemjs": "0.19.47",
     "typescript": "^2.3.4",
+    "ws": "^3.0.0",
     "zone.js": "0.8.12"
   },
   "devDependencies": {
     "@types/express": "^4.0.36",
     "@types/node": "^8.0.2",
+    "@types/ws": "^3.0.0",
     "nodemon": "^1.11.0"
   }
 }

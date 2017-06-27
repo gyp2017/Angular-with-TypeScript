@@ -28,7 +28,7 @@ class AppComponent {
         .catch(err => {
           this.errorMessage = `Can't get products. Error code: ${err.status}, URL: ${err.url}`;
           return Observable.empty();
-        })
+        });
   }
 }
 

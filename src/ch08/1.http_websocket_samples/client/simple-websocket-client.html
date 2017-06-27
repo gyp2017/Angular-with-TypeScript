@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>8 HTTP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <span id="messageGoesHere"></span>
+
+    <script>
+      const ws = new WebSocket('ws://localhost:8085');
+
+      ws.onmessage = (event) => {
+        const span =document.getElementById('messageGoesHere');
+        span.innerHTML = event.data;
+      };
+
+      ws.onerror = (event) => {
+        console.log('Error:', event);
+      };
+    </script>
+  </body>
+</html>

@@ -22,6 +22,6 @@ System.config({
     '@angular/platform-browser-dynamic': { main: 'bundles/platform-browser-dynamic.umd.min.js' },
     'rxjs': { main: 'Rx' },
 
-    'app': { main: 'main-with-service', defaultExtension: 'ts' }
+    'app': { main: 'websocket-observable-service-subscriber', defaultExtension: 'ts' }
   }
 });
