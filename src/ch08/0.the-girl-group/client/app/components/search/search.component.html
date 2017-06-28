@@ -1,0 +1,40 @@
+<form [formGroup]="formModel" (ngSubmit)="onSearch()" novalidate>
+  <div class="form-group"
+       [class.has-danger]="formModel.hasError('minlength', 'name')">
+    <label class="form-control-label" for="name">Idol name :</label>
+    <input type="text"
+           class="form-control"
+           placeholder="Enter name"
+           formControlName="name"
+           minlength="2">
+    <div class="form-control-feedback"
+         [class.invisible]="!formModel.hasError('minlength', 'name')">
+      Type at least 2 characters
+    </div>
+  </div>
+  <div class="form-group"
+       [class.has-danger]="formModel.hasError('positivenumber', 'height')">
+    <label class="form-control-label" for="height">Height :</label>
+    <input type="number"
+           class="form-control"
+           placeholder="Height"
+           min="0"
+           formControlName="height">
+    <div class="form-control-feedback"
+         [class.invisible]="!formModel.hasError('positivenumber', 'height')">
+      Height is not a positive number
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="form-control-label" for="exampleCategory">Category :</label>
+    <select class="form-control"
+            id="exampleCategory"
+            formControlName="category">
+      <option value="-1">All categories</option>
+      <option *ngFor="let c of categories" [value]="c">{{ c }}</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
