@@ -23,10 +23,11 @@ module.exports = function(config) {
       { pattern: 'node_modules/@angular/**/*.js.map', included: false, watched: false },
       { pattern: 'node_modules/rxjs/**/*.js', included: false, watched: false },
       { pattern: 'node_modules/rxjs/**/*.js.map', included: false, watched: false },
-      { pattern: 'app/**/*.ts', included: false, watched: true }
+      { pattern: 'client/app/**/*.ts', included: false, watched: true },
+      { pattern: 'client/app/**/*.html', included: false, watched: true }
     ],
     proxies: {
-      '/app/': '/base/app'
+      '/app/': '/base/client/app'
     },
     plugins: [
       'karma-jasmine',
