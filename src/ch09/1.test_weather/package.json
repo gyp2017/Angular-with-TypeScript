@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "test": "karma start karma.conf.js"
   },
   "dependencies": {
     "@angular/common": "4.2.2",
@@ -25,6 +26,10 @@
   "devDependencies": {
     "@types/jasmine": "^2.5.53",
     "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
     "live-server": "^1.2.0"
   }
 }
