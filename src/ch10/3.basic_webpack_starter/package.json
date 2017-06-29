@@ -1,0 +1,27 @@
+{
+  "name": "3.basic_webpack_starter",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --inline --progress --port 8080"
+  },
+  "devDependencies": {
+    "@angular/common": "4.2.2",
+    "@angular/compiler": "4.2.2",
+    "@angular/core": "4.2.2",
+    "@angular/http": "4.2.2",
+    "@angular/platform-browser": "4.2.2",
+    "@angular/platform-browser-dynamic": "4.2.2",
+    "@angular/router": "4.2.2",
+    "awesome-typescript-loader": "^3.2.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "core-js": "2.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "5.4.1",
+    "systemjs": "0.19.47",
+    "typescript": "2.3.4",
+    "webpack": "2.5.1",
+    "webpack-dev-server": "2.4.5",
+    "zone.js": "0.8.12"
+  }
+}
