@@ -39,8 +39,8 @@ module.exports = {
 
   devtool: 'source-map',
 
-  stats: {
-    maxModules: 0,
-    warnings: false
-  }
+  // stats: {
+  //   maxModules: 0,
+  //   warnings: false
+  // }
 };

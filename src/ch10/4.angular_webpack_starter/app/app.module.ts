@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
-import { HttpModule } from '@angular/http';
-import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+import { HttpModule } from '@angular/http'
+import { BrowserModule } from '@angular/platform-browser'
+import { RouterModule } from '@angular/router'
 
 import { ROUTING } from './app.routing';
 import { AppComponent } from './components/app.component';

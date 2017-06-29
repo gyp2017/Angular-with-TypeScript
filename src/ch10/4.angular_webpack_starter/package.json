@@ -1,9 +1,11 @@
 {
-  "name": "3.basic_webpack_starter",
+  "name": "4.angular_webpack_starter",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --port 8080"
+    "clean": "rimraf dist",
+    "start": "cross-env MODE=development webpack-dev-server",
+    "PREbuild": "yarn clean",
+    "build": "cross-env MODE=production webpack"
   },
   "devDependencies": {
     "@angular/common": "4.2.2",
@@ -13,11 +15,20 @@
     "@angular/platform-browser": "4.2.2",
     "@angular/platform-browser-dynamic": "4.2.2",
     "@angular/router": "4.2.2",
+    "@types/node": "^8.0.5",
     "awesome-typescript-loader": "^3.2.1",
+    "compression-webpack-plugin": "^0.4.0",
     "copy-webpack-plugin": "^4.0.1",
     "core-js": "2.4.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "html-loader": "^0.4.5",
+    "raw-loader": "^0.5.1",
     "reflect-metadata": "^0.1.10",
+    "rimraf": "^2.6.1",
     "rxjs": "5.4.1",
+    "style-loader": "^0.18.2",
+    "to-string-loader": "^1.1.5",
     "typescript": "2.3.4",
     "webpack": "2.5.1",
     "webpack-dev-server": "2.4.5",
